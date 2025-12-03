@@ -1,0 +1,28 @@
+name: infinity_note
+description: Infinity Note App
+publish_to: 'none'
+version: 1.0.0+1
+
+
+environment:
+sdk: ">=2.19.0 <3.0.0"
+
+
+dependencies:
+flutter:
+sdk: flutter
+hive: ^2.0.0
+path_provider: ^2.0.0
+image_picker: ^0.8.7+4
+share_plus: ^6.3.0
+speech_to_text: ^5.8.0
+flutter_colorpicker: ^1.1.0
+
+
+dev_dependencies: .gitignore
+flutter_test:
+sdk: flutter
+
+
+flutter:
+uses-material-design: true
